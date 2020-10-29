@@ -1,0 +1,38 @@
+@media (max-width: 1020px){
+    .instagram-phone {
+        width: 40%;
+    }
+    li {
+        font-size: .7rem;
+        text-align: center;
+    }
+    footer {
+        display: grid;
+    }
+}
+@media (max-width: 769px){
+    .instagram-phone {
+        display: none;
+    }
+    ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .login {
+        margin-top: 40px;
+    }
+    footer {
+        margin-top: -30px;
+    }
+}
+@media (max-width: 425px) {
+    .login {
+        padding: 10px 15px;
+        background: none;
+        border: none;
+    }
+    .create-account {
+        border: none;
+        background: none;
+    }
+}
